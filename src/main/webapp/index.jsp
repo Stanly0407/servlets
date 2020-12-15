@@ -1,47 +1,46 @@
-<html>
-<body>
-<h2 style="color: darkslategray; size: 12px; text-align: center; font-weight: bolder "> Authentication </h2>
-</body>
-</html>
-
-<hr style="border-width: 3px;">
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<param name="FlashVars" value="${fn:escapeXml(flashVars)}" />
+<%@ page contentType="text/html;charset=utf-8" %>
 
 <html>
 <head>
-    <meta charset="utf-8">
+    <title>Сериалы тут!</title>
+    <link rel="shortcut icon"  type="ico/png" href="../images/favicon.ico">
 </head>
 <body>
-<form action="autentification" method="post">
-    <p style="text-align: center;"><b style="font-style: oblique; color: darkblue"> E-mail:</b> <br>
-        <input type="text" size="40" name="email">
-    </p>
-    <p style="text-align: center;"><b style="font-style: italic ; color: darkblue">Password</b><br>
-        <input type="text" size="40" name="password">
-    </p>
-    <p style="text-align: center;">
-        <button style="vertical-align: middle; font-weight: bold;  size: 9px; background-color: lightcyan"> OK</button>
-    </p>
-
-</form>
-</body>
-</html>
-
-<html>
-<head>
-    <a href="admin.jsp"/>
-</head>
-<body>
-<p style="text-align: center; color: grey">
-    <button style="vertical-align: middle; font-weight: bold;  size: 9px; background-color: lightcyan"> Admin </button>
+<p style="text-align: right">
+    <button><a href="registration"> Регистрация </a></button>
+    <button> <a href="authentication_button"> Вход </a>  </button>  </p>
 </p>
 </body>
-</html>
 
-<html>
-<head>
-    <a href="registrationPage.jsp"/>
-</head>
-<body>
-<p style="text-align: center;"> Registration </p>
+
+
+<p style="text-align: right">
+    <input name="s" placeholder="Искать здесь..." type="search" >
+    <button type="submit"><img src="/images/loupe.png"
+                               style="vertical-align: middle"></button>
+
+
+<p style="horiz-align: center">
+    <img src="<spring:url value="../images/lion.png"/>">
+
+
+
+<body style="background-color: cadetblue; text-align: center">
+<h1>СЕРИАЛЫ ТУТ!</h1>
 </body>
+
+
+<body>
+<p style="text-align: center">
+    <button>ТОП сериалов!
+        <img src="../images/fire.png"
+             style="vertical-align: middle"></button>
+    <button>ТОП обсуждений!
+        <img src="../images/fire.png"
+             style="vertical-align: middle"></button></p>
+</body>
+
 </html>
