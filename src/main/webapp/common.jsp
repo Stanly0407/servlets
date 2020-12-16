@@ -3,7 +3,7 @@
 <html>
 <head>
 <%--    Иконка сайта--%>
-    <link rel="shortcut icon"  type="ico/png" href="images/favicon.ico">
+    <link rel="shortcut icon"  type="ico/png" href="..images/favicon.ico">
     <meta charset="UTF-8" />
     <title>SerialsHere Forum</title>
 
@@ -34,9 +34,7 @@
 
 </head>
 
-<body>
 
-</body>
-<jsp:body></jsp:body>
+
 
 </html>
