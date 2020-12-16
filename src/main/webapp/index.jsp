@@ -1,106 +1,169 @@
-
 <%@ page contentType="text/html;charset=utf-8" %>
-
 <html>
 <head>
-   <jsp:include page="common.jsp"></jsp:include>
-
+   <jsp:include page="commonForPages/commonSettings.jsp"></jsp:include>
 </head>
 
 <body style="margin: 20px" >
-
-<!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
         <img src="/images/lion.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         SerialsHere Forum
     </a>
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log in</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-</nav>
 
-
-<div align="center" style="margin-top: 20px">
-<form style="width: 400px" >
-    <div class="form-group"  >
-        <label for="exampleInputEmail1">Email address</label>
-        <input  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">SerialsHere Forum</h1>
+        <p class="lead">It's  SerialsHere Forum <br/>
+            Please log in or register to view the Forum content
+        </p>
     </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
 </div>
+
+    <div>
+    <%--Hot--%>
+        <div>
+<div class="card-deck">
+
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Название карточки</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Название карточки</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Название карточки</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">SerialsHere Forum</h1>
+            <p class="lead">It's  SerialsHere Forum <br/>
+                Please log in or register to view the Forum content
+            </p>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">SerialsHere Forum</h1>
+            <p class="lead">It's  SerialsHere Forum <br/>
+                Please log in or register to view the Forum content
+            </p>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Название карточки</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+    <div/>
+
+
 </body>
 
-
-<%--<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>--%>
-<%--&lt;%&ndash;&lt;%&ndash;<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>&ndash;%&gt;&ndash;%&gt;--%>
-<%--&lt;%&ndash;<param name="FlashVars" value="${fn:escapeXml(flashVars)}" />&ndash;%&gt;--%>
-<%--<%@ page contentType="text/html;charset=utf-8" %>--%>
-
-<%--<html>--%>
-<%--<head>--%>
-<%--&lt;%&ndash;    <style><%@include file="/WEB-INF/css/style.css"%></style>&ndash;%&gt;--%>
-<%--    <title>Сериалы тут!</title>--%>
-<%--&lt;%&ndash;    <link rel="shortcut icon"  type="ico/png" href="../images/favicon.ico">&ndash;%&gt;--%>
-<%--</head>--%>
-<%--<body>--%>
-<%--<p style="text-align: right">--%>
-<%--&lt;%&ndash;    <button><a href="registration"> Регистрация </a></button>&ndash;%&gt;--%>
-<%--&lt;%&ndash;    <button> <a href="authentication_button"> Вход </a>  </button>  </p>&ndash;%&gt;--%>
-<%--</p>--%>
-<%--</body>--%>
-
-
-
-<%--<p style="text-align: right">--%>
-<%--    <input name="s" placeholder="Искать здесь..." type="search" >--%>
-<%--    <button type="submit"><img src="../WEB-INF/images/loupe.png"--%>
-<%--                               style="vertical-align: middle"></button>--%>
-
-
-<%--<p style="horiz-align: center">--%>
-<%--&lt;%&ndash;    <img src="<spring:url value="../images/lion.png"/>">&ndash;%&gt;--%>
-
-
-
-<%--<body style="background-color: cadetblue; text-align: center">--%>
-<%--<h1>СЕРИАЛЫ ТУТ!</h1>--%>
-<%--</body>--%>
-
-
-<%--<body>--%>
-<%--<p style="text-align: center">--%>
-<%--    <button>ТОП сериалов!--%>
-<%--        <img src="../WEB-INF/images/fire.png"--%>
-<%--             style="vertical-align: middle"></button>--%>
-<%--    <button>ТОП обсуждений!--%>
-<%--        <img src="../WEB-INF/images/fire.png"--%>
-<%--             style="vertical-align: middle"></button></p>--%>
-<%--</body>--%>
-
-<%--</html>--%>
