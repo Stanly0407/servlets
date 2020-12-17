@@ -34,7 +34,7 @@
     </nav>
 </div>
 
-<img src="kokon-devushki-art-fantaziya.jpg" class="d-block w-100" alt="...">
+<img src="gorod-doroga-trava-planeta.jpg" class="d-block w-100" alt="...">
 
 
 <div class="jumbotron" style="height: 300px ">
@@ -52,7 +52,7 @@
 
 <div class="card-deck">
     <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="hot.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="comment.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -68,7 +68,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="best.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
