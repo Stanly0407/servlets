@@ -4,7 +4,11 @@
    <jsp:include page="commonForPages/commonSettings.jsp"></jsp:include>
 </head>
 
-<body style="margin: 20px" >
+<body style="margin: 10px" >
+
+
+
+<div>
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
         <img src="/images/lion.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
@@ -28,41 +32,39 @@
             </ul>
         </div>
     </nav>
-
-
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">SerialsHere Forum</h1>
-        <p class="lead">It's  SerialsHere Forum <br/>
-            Please log in or register to view the Forum content
-        </p>
-    </div>
 </div>
 
-    <div>
-    <%--Hot--%>
-        <div>
-<div class="card-deck">
+<img src="kokon-devushki-art-fantaziya.jpg" class="d-block w-100" alt="...">
 
+
+<div class="jumbotron" style="height: 300px ">
+    <h1 class="display-4" style="line-height: 55px">SerialsHere Forum!</h1>
+    <p class="lead">It's  SerialsHere Forum.</p>
+    <hr class="my-4">
+    <p>Please log in or register to view the Forum content.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Registration</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Log in</a>
+    </p>
+</div>
+
+
+
+<div class="card-deck">
     <div class="card">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-        <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
     </div>
-
     <div class="card">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
     </div>
     <div class="card">
@@ -70,99 +72,10 @@
         <div class="card-body">
             <h5 class="card-title">Название карточки</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-        <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-        </div>
-    </div>
-
     </div>
 </div>
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">SerialsHere Forum</h1>
-            <p class="lead">It's  SerialsHere Forum <br/>
-                Please log in or register to view the Forum content
-            </p>
-        </div>
-    </div>
-
-    <div class="card-deck">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">SerialsHere Forum</h1>
-            <p class="lead">It's  SerialsHere Forum <br/>
-                Please log in or register to view the Forum content
-            </p>
-        </div>
-    </div>
-
-    <div class="card-deck">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Название карточки</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-        </div>
-    </div>
-    <div/>
 
 
 </body>
