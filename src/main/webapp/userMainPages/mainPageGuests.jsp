@@ -4,7 +4,7 @@
    <jsp:include page="../commonForPages/commonSettings.jsp"></jsp:include>
 </head>
 
-<body  >
+<body>
 
 
 <nav class="navbar navbar-light bg-light">
@@ -25,7 +25,7 @@
                     <a class="nav-link" href="#">Registration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Log in</a>
+                    <a class="nav-link" href="/userMainPages/loginPage.jsp">Log in</a>
                 </li>
             </ul>
         </div>
