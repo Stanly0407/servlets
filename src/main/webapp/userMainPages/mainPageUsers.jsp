@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=utf-8" %>
 <html>
 <head>
-   <jsp:include page="/commonForPages/commonSettings.jsp"></jsp:include>
+   <jsp:include page="../commonForPages/commonSettings.jsp"></jsp:include>
 </head>
 
 <body>
