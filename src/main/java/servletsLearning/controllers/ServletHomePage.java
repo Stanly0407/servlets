@@ -13,7 +13,7 @@ import java.io.IOException;
 public class ServletHomePage extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String path = "/index.jsp";
+        String path = "/mainPageGuests.jsp";
         ServletContext servletContext = getServletContext();
         RequestDispatcher requestDispatcher = servletContext.getRequestDispatcher(path);
 

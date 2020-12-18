@@ -15,7 +15,7 @@
     <a href= "homepage"/>
 </head>
 <body>
-<form action="index.jsp" >
+<form action="userMainPages/mainPageGuests.jsp" >
     <p style="text-align: center;"> Home page </p>
 </form>
 </body>

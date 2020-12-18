@@ -25,7 +25,7 @@ public class ServletNewUser extends HttpServlet {
         System.out.println(emailOut);
 
         if (checkInModel) {
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/index.jsp");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/mainPageGuests.jsp");
             requestDispatcher.forward(req, resp);
         } else {
                 service.addUser(name, emailOut, password);
