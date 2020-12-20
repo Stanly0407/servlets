@@ -21,7 +21,7 @@
                     <a class="nav-link" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/userMainPages/mainPageGuests.jsp">Log in</a>
+                    <a class="nav-link" href="/userMainPages/loginPage.jsp">Log in</a>
                 </li>
             </ul>
         </div>
@@ -31,7 +31,8 @@
 <form style="margin-left: 500px; margin-top: 15px; margin-right: 500px ">
     <div class="form-group" class="shadow p-3 mb-5 bg-white rounded">
         <label for="formGroupExampleInput">Email</label>
-        <input type="email" class="form-control" id="formGroupExampleInput" placeholder="sevsnape123@gmail.com">
+        <input type="email" class="form-control" id="formGroupExampleInput" placeholder="sevsnape123@gmail.com"
+               required oninvalid="this.setCustomValidity('The field must be filled')" >
     </div>
     <div class="form-group">
         <label for="formGroupExampleInput2">Firstname</label>
