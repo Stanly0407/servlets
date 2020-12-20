@@ -7,7 +7,7 @@
 <body>
 
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/templates/userMainPages/mainPageGuests.jsp">
         <img src="/images/lion.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         SerialsHere Forum
     </a>
@@ -21,7 +21,7 @@
                     <a class="nav-link" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/userMainPages/loginPage.jsp">Log in</a>
+                    <a class="nav-link" href="/templates/userMainPages/loginPage.jsp">Log in</a>
                 </li>
             </ul>
         </div>

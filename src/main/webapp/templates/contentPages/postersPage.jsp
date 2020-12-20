@@ -19,7 +19,7 @@
 
 <%--Карточка для отображения постеров через лист--%>
 <div class="card">
-    <img src="../images/first-mandalorian.jpg" class="card-img-top" alt="...">
+    <img src="/images/first-mandalorian.jpg" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">Название карточки</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>

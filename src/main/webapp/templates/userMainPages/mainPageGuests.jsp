@@ -1,14 +1,14 @@
 <%@ page contentType="text/html;charset=utf-8" %>
 <html>
 <head>
-   <jsp:include page="../commonForPages/commonSettings.jsp"></jsp:include>
+   <jsp:include page="../../commonForPages/commonSettings.jsp"></jsp:include>
 </head>
 
 <body>
 
 
 <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/templates/userMainPages/mainPageGuests.jsp">
         <img src="/images/lion.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
         SerialsHere Forum
     </a>
@@ -22,10 +22,10 @@
                     <a class="nav-link" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/userMainPages/registrationPage.jsp">Registration</a>
+                    <a class="nav-link" href="/templates/userMainPages/registrationPage.jsp">Registration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/userMainPages/loginPage.jsp">Log in</a>
+                    <a class="nav-link" href="/templates/userMainPages/loginPage.jsp">Log in</a>
                 </li>
             </ul>
         </div>
@@ -33,7 +33,7 @@
 </nav>
 
 
-<img src="../images/gorod-doroga-trava-planeta.jpg" class="d-block w-100" alt="...">
+<img src="../../images/gorod-doroga-trava-planeta.jpg" class="d-block w-100" alt="...">
 
 
 <div class="jumbotron" style="height: 300px ">
@@ -51,7 +51,7 @@
 
 <div class="card-deck">
     <div class="card">
-        <img src="../images/hot.jpg" class="card-img-top" alt="...">
+        <img src="../../images/hot.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">The most talked about reviews</h5>
             <p class="card-text">List - 3 objects</p>
@@ -59,7 +59,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="../images/comment.jpg" class="card-img-top" alt="...">
+        <img src="../../images/comment.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">New reviews</h5>
             <p class="card-text">List - 3 objects</p>
@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="card">
-        <img src="../images/best.jpg" class="card-img-top" alt="...">
+        <img src="../../images/best.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">The most liked reviews</h5>
             <p class="card-text">List - 3 objects</p>
@@ -82,7 +82,7 @@
 </div>
 <%--Карточка для отображения 10 новых постеров через лист--%>
 <div class="card">
-    <img src="../images/first-mandalorian.jpg" class="card-img-top" alt="...">
+    <img src="../../images/first-mandalorian.jpg" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">Название карточки</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
