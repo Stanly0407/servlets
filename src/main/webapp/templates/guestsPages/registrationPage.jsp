@@ -5,28 +5,7 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="/templates/userMainPages/mainPageGuests.jsp">
-        <img src="/images/lion.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        SerialsHere Forum
-    </a>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/templates/userMainPages/loginPage.jsp">Log in</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</nav>
+<jsp:include page="/commonForPages/footerGuests.jsp"></jsp:include>
 
 <form style="margin-left: 500px; margin-top: 15px; margin-right: 500px ">
     <div class="form-group" class="shadow p-3 mb-5 bg-white rounded">
